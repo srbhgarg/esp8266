@@ -1,0 +1,11 @@
+1. Install Arduino IDE
+2. Arduino -> Preferences -> Additional Boards Manager Urls
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+3. Tools ->Board-> Board Manager
+  a. Install esp8266
+  b. Select Board: NodeMCU 1.0 (ESP- 12E Module) 
+4. Sketch -> Include Library -> Library Manager
+  a. Install PubSubClient (For MQTT links)
+5. Install serial driver (CH341) for MAC
+  a. Select Tools->Port	
+  b. Select Baud Rate: 9600
